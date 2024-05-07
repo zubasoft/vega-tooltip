@@ -52,7 +52,9 @@ export const DEFAULT_OPTIONS = {
    * A function to customize the rendered HTML of the tooltip.
    * @param value A value string, or object of value strings keyed by field
    * @param sanitize The `sanitize` function from `options.sanitize`
+   * @param maxDepth
    * @param baseURL The `baseURL` from `options.baseURL`
+   * @param item
    * @returns {string} The returned string will become the `innerHTML` of the tooltip element
    */
   formatTooltip: formatValue,

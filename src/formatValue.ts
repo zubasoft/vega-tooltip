@@ -11,6 +11,7 @@ export function formatValue(
   valueToHtml: (value: any) => string,
   maxDepth: number,
   baseURL: string,
+  item: any
 ): string {
   if (isArray(value)) {
     return `[${value.map((v) => valueToHtml(isString(v) ? v : stringify(v, maxDepth))).join(', ')}]`;
