@@ -30,7 +30,7 @@
   "homepage": "https://github.com/vega/vega-tooltip#readme",
   "main": "build/vega-tooltip.js",
   "module": "build/vega-tooltip.module.js",
-  "unpkg": "build/vega-tooltip.min.js",
+  "unpkg": "../ds/public/vue/public/js/libs/17vega-tooltip.min.js",
   "jsdelivr": "build/vega-tooltip.min.js",
   "types": "build/vega-tooltip.module.d.ts",
   "files": [
